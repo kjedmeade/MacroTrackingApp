@@ -1,3 +1,36 @@
+## Macro Tracking App (beginnings)
+
+Usage limit reached for Claude Code, but this code includes the beginnings of a MacroTrackerApp project
+
+Course Guide: https://amdocsglobal.udemy.com/course/the-complete-ai-coding-course-2025-cursor-ai-v0-vercel/learn/lecture/49157233#overview
+
+<img width="615" height="566" alt="Screen Shot 2025-08-04 at 2 17 41 PM" src="https://github.com/user-attachments/assets/8ccbba4c-f900-46ae-b76b-ddf83530609c" />
+
+<img width="605" height="531" alt="Screen Shot 2025-08-04 at 2 17 45 PM" src="https://github.com/user-attachments/assets/d1b145d1-f08d-4808-a91d-c8577a5564b5" />
+
+### Claude Code Prompt:
+"Create a macro tracking app. It will have users that can log their foods and achieve macro goals for the day.
+
+I want to use react for the frontend and firebase for the backend. I will also use replit as my IDE.
+
+Also provide a simple file structure for me to start the project. I have included my existing file structure below for reference:
+
+|-index.html
+|-package.json
+|-package-lock.json
+|-public
+| |-favicon.svg
+|-README.md
+|-src
+| |-App.css
+| |-App.jsx
+| |-index.jsx
+|-tsconfig.json
+|-vite.config.js"
+
+### Command to View File Structure: 
+find . -maxdepth 2 -not -path '*/.*' -not -path '*/node_modules*' | sort | sed -e "s/[^\/]*\// /g" -e "s/\([^\ ]\)\/-\1/\1/"
+
 ## Running React on Replit
 
 [React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
