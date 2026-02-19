@@ -1,4 +1,4 @@
-## Macro Tracking App WebApp (beginnings)
+## Macro Tracking App Web App (beginnings)
 
 Usage limit reached for Claude Code, but this code includes the beginnings of a MacroTrackerApp project
 
